@@ -1,12 +1,8 @@
 <?php
-// ============================================
-// CONEXIÓN A BASE DE DATOS - INFINITYFREE
-// ============================================
-
 $host = 'sql303.infinityfree.com';
 $dbname = 'if0_42018839_bomberos_choco';
 $username = 'if0_42018839';
-$password = 'Rm35897397';  // ¡IMPORTANTE! Reemplaza con tu contraseña real
+$password = 'Rm35897397';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
