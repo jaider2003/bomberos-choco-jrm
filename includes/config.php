@@ -10,7 +10,7 @@ date_default_timezone_set('America/Bogota');
 
 // Configuración del sitio
 define('SITE_NAME', 'BOMBEROS CHOCÓ JRM');
-define('SITE_URL', 'https://bombero.infinityfreeapp.com/');  // ← CAMBIADO
+define('SITE_URL', 'https://bomberos-choco-jrm.onrender.com/');
 
 // Verificar si el usuario está logueado
 function usuarioLogueado() {
@@ -52,4 +52,5 @@ function getMensaje() {
     }
     return null;
 }
+?>
 ?>
