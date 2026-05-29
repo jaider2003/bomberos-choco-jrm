@@ -1,0 +1,36 @@
+/* ============================================
+   COMPATIBILIDAD CON BOOTSTRAP - SIN ROMPER ESTILOS
+   ============================================ */
+
+/* Evitar que Bootstrap sobrescriba los títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Mantener los botones personalizados */
+.btn-primary, .btn-secondary, .btn-emergency, .logout-btn {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Asegurar que los colores personalizados prevalezcan */
+.header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%) !important;
+}
+
+/* Mantener las tarjetas personalizadas */
+.card {
+    background: white !important;
+    border-radius: 20px !important;
+    border: none !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08) !important;
+}
+
+/* Evitar conflictos con los badges */
+.badge {
+    font-weight: 600;
+}
+
+/* Mantener los tamaños de fuente */
+body {
+    font-family: 'Poppins', sans-serif;
+}
