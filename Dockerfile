@@ -13,4 +13,3 @@ RUN chown -R www-data:www-data /var/www/html
 EXPOSE 80
 
 
-"Agregar Dockerfile para despliegue en Render"
