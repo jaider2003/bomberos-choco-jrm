@@ -11,3 +11,6 @@ RUN chown -R www-data:www-data /var/www/html
 
 # Exponer el puerto 80
 EXPOSE 80
+
+
+"Agregar Dockerfile para despliegue en Render"
